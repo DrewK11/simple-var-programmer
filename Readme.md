@@ -17,5 +17,5 @@ This application was made using Java and SpringBoot to calculate Value At Risk u
 mvn clean spring-boot:run
 ```
 ### Usage
-* Once the app is running, you can enter values for single trades in the Single Trade Historical Values field in the format of (1.0, 5.0, 2.0, 6.0) and enter your preferred confidence level in the confidence level field (min value is 0, and max value is 1). Then, click on the Calculate var (Single Trade) button to see the result appear below the button.
+* Once the app is running at http://localhost:8080/, you can enter values for single trades in the Single Trade Historical Values field in the format of (1.0, 5.0, 2.0, 6.0) and enter your preferred confidence level in the confidence level field (min value is 0, and max value is 1). Then, click on the Calculate var (Single Trade) button to see the result appear below the button.
 * Portfolio var can be calculated by entering values for multiple trades in the Portfolio Historical Values field in the format of (1.0, 5.0), (2.0), (10.0, 3.0), where each individual list is the historical values of a single trade. Enter your confidence level as described above and click on the Calculate var (Portfolio) button to see the result.
